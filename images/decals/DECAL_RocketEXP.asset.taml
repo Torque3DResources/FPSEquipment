@@ -1,0 +1,16 @@
+<MaterialAsset
+    AssetName="DECAL_RocketEXP"
+    materialDefinitionName="DECAL_RocketEXP"
+    VersionId="1">
+    <Material
+        Name="DECAL_RocketEXP"
+        mapTo="missingTexture.png"
+        translucent="true"
+        translucentZWrite="true">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:rBlast_image"
+                VertColor="true"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

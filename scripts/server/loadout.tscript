@@ -1,0 +1,40 @@
+function FPSEquipment::loadOut(%this, %player)
+{
+   //echo (%game @"\c4 -> "@ %game.class @" -> GameCore::loadOut");
+
+   %player.clearWeaponCycle();
+   
+   %player.setInventory(Ryder, 1);
+   %player.setInventory(RyderClip, %player.maxInventory(RyderClip));
+   %player.setInventory(RyderAmmo, %player.maxInventory(RyderAmmo));    // Start the gun loaded
+   %player.addToWeaponCycle(Ryder);
+   %player.setItemSlot(Ryder, 1);
+   
+   %player.setInventory(Lurker, 1);
+   %player.setInventory(LurkerClip, %player.maxInventory(LurkerClip));
+   %player.setInventory(LurkerAmmo, %player.maxInventory(LurkerAmmo));  // Start the gun loaded
+   %player.addToWeaponCycle(Lurker);
+   %player.setItemSlot(Lurker, 2);
+
+   %player.setInventory(LurkerGrenadeLauncher, 1);
+   %player.setInventory(LurkerGrenadeAmmo, %player.maxInventory(LurkerGrenadeAmmo));
+   %player.addToWeaponCycle(LurkerGrenadeLauncher);
+   %player.setItemSlot(LurkerGrenadeLauncher, 3);
+
+   %player.setInventory(ProxMine, %player.maxInventory(ProxMine));
+   %player.addToWeaponCycle(ProxMine);
+   %player.setItemSlot(ProxMine, 4);
+
+   %player.setInventory(DeployableTurret, %player.maxInventory(DeployableTurret));
+   %player.addToWeaponCycle(DeployableTurret);
+   %player.setItemSlot(DeployableTurret, 5);
+   
+   if (%player.getDatablock().mainWeapon.image !$= "")
+   {
+      %player.mountImage(%player.getDatablock().mainWeapon.image, 0);
+   }
+   else
+   {
+      %player.mountImage(Ryder, 0);
+   }
+}

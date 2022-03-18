@@ -1,0 +1,20 @@
+<MaterialAsset
+    AssetName="DECAL_bulletHole"
+    materialDefinitionName="DECAL_bulletHole"
+    VersionId="1">
+    <Material
+        Name="DECAL_bulletHole"
+        mapTo="missingTexture.png"
+        translucent="true"
+        translucentZWrite="true">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:BulletHole_Walls_image"
+                VertColor="true"/>
+        </Material.Stages>
+        <Material.EffectColors>
+            <EffectColor
+                EffectColor="InvisibleBlack"/>
+        </Material.EffectColors>
+    </Material>
+</MaterialAsset>

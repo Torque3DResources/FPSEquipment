@@ -1,0 +1,3 @@
+<ImageAsset
+    AssetName="swarmer_image"
+    imageFile="@assetFile=swarmer.png"/>

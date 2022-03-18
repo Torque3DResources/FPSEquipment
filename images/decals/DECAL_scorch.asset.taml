@@ -1,0 +1,18 @@
+<MaterialAsset
+    AssetName="DECAL_scorch"
+    materialDefinitionName="DECAL_scorch"
+    VersionId="1">
+    <Material
+        Name="DECAL_scorch"
+        mapTo="missingTexture.png"
+        translucent="true"
+        translucentBlendOp="None"
+        translucentZWrite="true"
+        alphaTest="true"
+        alphaRef="84">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:scorch_decal_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>
