@@ -1,0 +1,6 @@
+<ShapeAsset
+    AssetName="Turret_Legs"
+    fileName="@assetFile=Turret_Legs.DAE"
+    constuctorFileName="@assetFile=Turret_Legs.tscript"
+    materialSlot0="@asset=FPSEquipment:CollisionMat"
+    materialSlot1="@asset=FPSEquipment:Turret_Base"/>

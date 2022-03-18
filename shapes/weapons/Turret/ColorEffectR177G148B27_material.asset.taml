@@ -1,0 +1,8 @@
+<MaterialAsset
+    AssetName="ColorEffectR177G148B27_material"
+    materialDefinitionName="ColorEffectR177G148B27_material"
+    VersionId="1">
+    <Material
+        Name="ColorEffectR177G148B27_material"
+        mapTo="ColorEffectR177G148B27_material"/>
+</MaterialAsset>

@@ -1,0 +1,30 @@
+<MaterialAsset
+    AssetName="Ryder_MuzzleFlash_Base"
+    materialDefinitionName="Ryder_MuzzleFlash_Base"
+    VersionId="1">
+    <Material
+        Name="Ryder_MuzzleFlash_Base"
+        mapTo="Ryder_MuzzleFlash_Base"
+        castShadows="false"
+        translucent="true"
+        translucentBlendOp="Add"
+        specular0="0 0 0 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseColor="0.05 0.05 0.05 1"
+                DiffuseMapAsset="FPSEquipment:Ryder_MuzzleFlash_image"
+                Glow="true"
+                Emissive="true"
+                doubleSided="true"
+                AnimFlags="0x00000005"
+                ScrollDir="-0.15 -0.15"
+                RotSpeed="0.25"
+                RotPivotOffset="-0.5 -0.5"
+                WaveFreq="5.313"
+                WaveAmp="0.016"/>
+            <Stages_beginarray
+                DiffuseColor="1 1 1 1"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

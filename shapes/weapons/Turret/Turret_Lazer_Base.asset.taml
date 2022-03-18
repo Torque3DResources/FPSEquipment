@@ -1,0 +1,22 @@
+<MaterialAsset
+    AssetName="Turret_Lazer_Base"
+    materialDefinitionName="Turret_Lazer_Base"
+    VersionId="1">
+    <Material
+        Name="Turret_Lazer_Base"
+        mapTo="Turret_Lazer_Base"
+        translucent="true"
+        translucentBlendOp="Add"
+        castDynamicShadows="1"
+        materialTag0="Weapon"
+        materialTag1="FX"
+        specular0="0.9 0.9 0.9 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:Turret_Lazer_D_image"
+                Glow="true"
+                Emissive="true"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

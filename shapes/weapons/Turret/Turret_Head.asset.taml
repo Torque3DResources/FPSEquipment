@@ -1,0 +1,7 @@
+<ShapeAsset
+    AssetName="Turret_Head"
+    fileName="@assetFile=Turret_Head.DAE"
+    constuctorFileName="@assetFile=Turret_Head.tscript"
+    materialSlot0="@asset=FPSEquipment:Turret_Base"
+    materialSlot1="@asset=FPSEquipment:Turret_Lazer_Base"
+    materialSlot2="@asset=FPSEquipment:Turret_MuzzleFlash_Base"/>

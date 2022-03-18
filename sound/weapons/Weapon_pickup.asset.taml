@@ -1,0 +1,3 @@
+<SoundAsset
+    AssetName="Weapon_pickup"
+    soundFile="@assetFile=Weapon_pickup.ogg"/>

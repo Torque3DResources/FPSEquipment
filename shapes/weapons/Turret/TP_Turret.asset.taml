@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="TP_Turret"
+    fileName="@assetFile=TP_Turret.DAE"
+    constuctorFileName="@assetFile=TP_Turret.tscript"
+    materialSlot0="@asset=FPSEquipment:Turret_Base"/>

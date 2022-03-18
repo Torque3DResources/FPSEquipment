@@ -1,0 +1,14 @@
+<MaterialAsset
+    AssetName="w_swarmgun"
+    materialDefinitionName="w_swarmgun"
+    imageMap0="@asset=FPSEquipment:w_swarmgun_ALBEDO_image"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSEquipment/shapes/weapons/shared/w_swarmgun">
+    <Material
+        Name="w_swarmgun"
+        mapTo="w_swarmgun">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:w_swarmgun_ALBEDO_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

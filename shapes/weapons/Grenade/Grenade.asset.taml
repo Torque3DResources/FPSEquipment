@@ -1,0 +1,8 @@
+<MaterialAsset
+    AssetName="Grenade"
+    materialDefinitionName="Grenade"
+    VersionId="1">
+    <Material
+        Name="Grenade"
+        mapTo="Grenade"/>
+</MaterialAsset>

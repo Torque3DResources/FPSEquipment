@@ -1,0 +1,15 @@
+<MaterialAsset
+    AssetName="grenadeDebris_debris"
+    materialDefinitionName="grenadeDebris_debris"
+    VersionId="1">
+    <Material
+        Name="grenadeDebris_debris"
+        mapTo="debris"
+        translucentBlendOp="None">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseColor="0.7 0.7 0.7 1"
+                Roughness="50"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

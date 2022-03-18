@@ -1,0 +1,8 @@
+<MaterialAsset
+    AssetName="Debris"
+    materialDefinitionName="Debris"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSEquipment/shapes/weapons/Grenade/materials.tscript">
+    <Material
+        Name="Debris"
+        mapTo="Debris"/>
+</MaterialAsset>

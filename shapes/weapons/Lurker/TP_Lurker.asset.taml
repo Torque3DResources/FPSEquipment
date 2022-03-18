@@ -1,0 +1,7 @@
+<ShapeAsset
+    AssetName="TP_Lurker"
+    fileName="@assetFile=TP_Lurker.DAE"
+    constuctorFileName="@assetFile=TP_Lurker.tscript"
+    materialSlot0="@asset=FPSEquipment:Lurker_Base"
+    materialSlot1="@asset=FPSEquipment:Lurker_MuzzleFlash_Base"
+    materialSlot2="@asset=FPSEquipment:Lurker_ScopeScreen_Base"/>

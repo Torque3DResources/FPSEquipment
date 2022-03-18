@@ -1,0 +1,19 @@
+<MaterialAsset
+    AssetName="Lurker_Base"
+    materialDefinitionName="Lurker_Base"
+    VersionId="1">
+    <Material
+        Name="Lurker_Base"
+        mapTo="Lurker_Base"
+        translucentBlendOp="None"
+        castDynamicShadows="1"
+        specular0="1 1 1 1"
+        specularMap0="Lurker_S.dds"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:Lurker_D_image"
+                NormalMapAsset="FPSEquipment:Lurker_N_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>
