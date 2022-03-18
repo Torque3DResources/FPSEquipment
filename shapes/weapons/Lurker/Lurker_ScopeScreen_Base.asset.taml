@@ -1,0 +1,19 @@
+<MaterialAsset
+    AssetName="Lurker_ScopeScreen_Base"
+    materialDefinitionName="Lurker_ScopeScreen_Base"
+    VersionId="1">
+    <Material
+        Name="Lurker_ScopeScreen_Base"
+        mapTo="Lurker_ScopeScreen_Base"
+        translucentBlendOp="None"
+        specular0="1 1 1 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseColor="1 1 1 1"
+                DiffuseMapAsset="FPSEquipment:Lurker_D_image"
+                Glow="true"
+                Emissive="true"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

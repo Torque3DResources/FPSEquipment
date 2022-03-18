@@ -1,0 +1,7 @@
+<ShapeAsset
+    AssetName="TP_Ryder"
+    fileName="@assetFile=TP_Ryder.DAE"
+    constuctorFileName="@assetFile=TP_Ryder.tscript"
+    materialSlot0="@asset=FPSEquipment:FP_Ryder_Base"
+    materialSlot1="@asset=FPSEquipment:Ryder_MuzzleFlash_Base"
+    materialSlot2="@asset=FPSEquipment:TP_Ryder_Base"/>

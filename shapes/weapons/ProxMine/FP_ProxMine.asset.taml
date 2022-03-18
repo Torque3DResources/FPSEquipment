@@ -1,0 +1,6 @@
+<ShapeAsset
+    AssetName="FP_ProxMine"
+    fileName="@assetFile=FP_ProxMine.DAE"
+    constuctorFileName="@assetFile=FP_ProxMine.tscript"
+    materialSlot0="@asset=FPSEquipment:ProxMine_Base"
+    materialSlot1="@asset=FPSEquipment:ProxMine_Glow_Base"/>

@@ -1,0 +1,18 @@
+<MaterialAsset
+    AssetName="RifleShell_RifleShell"
+    materialDefinitionName="RifleShell_RifleShell"
+    VersionId="1">
+    <Material
+        Name="RifleShell_RifleShell"
+        mapTo="RifleShell"
+        translucentBlendOp="None"
+        materialTag0="Weapon"
+        pixelSpecular0="1"
+        specular0="0.996078 0.988235 0.921569 0.954"
+        specularPower0="19">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:RifleShell_diff_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

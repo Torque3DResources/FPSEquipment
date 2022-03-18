@@ -1,0 +1,65 @@
+
+// The general flow of a gane - server's creation, loading and hosting clients, and then destruction is as follows:
+
+// First, a client will always create a server in the event that they want to host a single player
+// game. Torque3D treats even single player connections as a soft multiplayer game, with some stuff
+// in the networking short-circuited to sidestep around lag and packet transmission times.
+
+// initServer() is called, loading the default server scripts.
+// After that, if this is a dedicated server session, initDedicated() is called, otherwise initClient is called
+// to prep a playable client session.
+
+// When a local game is started - a listen server - via calling StartGame() a server is created and then the client is
+// connected to it via createAndConnectToLocalServer().
+
+function FPSEquipment::onCreate( %this )
+{
+}
+
+function FPSEquipment::onDestroy( %this )
+{
+}
+
+function FPSEquipment::initServer(%this)
+{
+   %this.queueExec("./scripts/server/commands");
+   %this.queueExec("./scripts/server/weapon");
+   %this.queueExec("./scripts/server/health");
+   %this.queueExec("./scripts/server/loadout");
+}
+
+function FPSEquipment::onCreateGameServer(%this)
+{
+   %this.registerDatablock("./datablocks/audioProfiles");
+   %this.registerDatablock("./datablocks/health");
+   %this.registerDatablock("./scripts/managedData/managedDecalData");   
+   %this.registerDatablock("./datablocks/weapon");
+   %this.registerDatablock("./datablocks/weapons/grenadefx");
+   %this.registerDatablock("./datablocks/weapons/Lurker");
+   %this.registerDatablock("./datablocks/weapons/ProxMine");
+   %this.registerDatablock("./datablocks/weapons/Ryder");
+   %this.registerDatablock("./datablocks/weapons/Turret");
+}
+
+function FPSEquipment::onDestroyGameServer(%this)
+{
+}
+
+function FPSEquipment::initClient(%this)
+{
+   //keybind scripts   
+   %this.queueExec("./scripts/client/defaultkeybinds");   
+   %prefPath = getPrefpath();
+   if(isScriptFile(%prefPath @ "/keybinds"))
+      exec(%prefPath @ "/keybinds");
+      
+   %this.queueExec("./scripts/client/commands");
+}
+
+function FPSEquipment::onCreateClientConnection(%this)
+{
+}
+
+function FPSEquipment::onDestroyClientConnection(%this)
+{
+}

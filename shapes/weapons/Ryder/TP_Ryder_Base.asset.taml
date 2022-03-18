@@ -1,0 +1,20 @@
+<MaterialAsset
+    AssetName="TP_Ryder_Base"
+    materialDefinitionName="TP_Ryder_Base"
+    VersionId="1">
+    <Material
+        Name="TP_Ryder_Base"
+        mapTo="TP_Ryder_Base"
+        translucentBlendOp="None"
+        castDynamicShadows="1"
+        pixelSpecular0="1"
+        specular0="1.0 1.0 1.0 1"
+        specularMap0="./TP_Ryder_S.dds"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:TP_Ryder_D_image"
+                NormalMapAsset="FPSEquipment:TP_Ryder_N_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

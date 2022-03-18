@@ -1,0 +1,16 @@
+<MaterialAsset
+    AssetName="CollisionMat"
+    materialDefinitionName="CollisionMat"
+    VersionId="1">
+    <Material
+        Name="CollisionMat"
+        mapTo="CollisionMat"
+        translucent="true"
+        specular0="0.9 0.9 0.9 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseColor="1 0 0 0.75"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

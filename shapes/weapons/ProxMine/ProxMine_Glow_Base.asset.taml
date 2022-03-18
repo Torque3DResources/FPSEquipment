@@ -1,0 +1,19 @@
+<MaterialAsset
+    AssetName="ProxMine_Glow_Base"
+    materialDefinitionName="ProxMine_Glow_Base"
+    VersionId="1">
+    <Material
+        Name="ProxMine_Glow_Base"
+        mapTo="ProxMine_Glow_Base"
+        translucent="true"
+        translucentBlendOp="Add"
+        specular0="0.9 0.9 0.9 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:ProxMine_Glow_image"
+                Glow="true"
+                Emissive="true"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

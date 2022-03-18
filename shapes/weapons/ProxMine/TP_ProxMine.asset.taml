@@ -1,0 +1,7 @@
+<ShapeAsset
+    AssetName="TP_ProxMine"
+    fileName="@assetFile=TP_ProxMine.DAE"
+    constuctorFileName="@assetFile=TP_ProxMine.tscript"
+    materialSlot0="@asset=FPSEquipment:CollisionMat"
+    materialSlot1="@asset=FPSEquipment:ProxMine_Base"
+    materialSlot2="@asset=FPSEquipment:ProxMine_Glow_Base"/>
