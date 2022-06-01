@@ -455,7 +455,7 @@ datablock ExplosionData(RocketSubExplosion)
 
 datablock ExplosionData(RocketLauncherExplosion)
 {
-   soundProfile = RocketLauncherExplosionSound;
+   soundAsset = "FPSEquipment:GRENADELAND";
    lifeTimeMS = 200; // I want a quick bang and dissipation, not a slow burn-out
 
    // Volume particles

@@ -739,7 +739,7 @@ datablock ExplosionData(GrenadeSubExplosion)
 
 datablock ExplosionData(GrenadeLauncherExplosion)
 {
-   soundProfile = GrenadeLauncherExplosionSound;
+   soundAsset = "FPSEquipment:GRENADELAND";
    lifeTimeMS = 400; // Quick flash, short burn, and moderate dispersal
 
    // Volume particles

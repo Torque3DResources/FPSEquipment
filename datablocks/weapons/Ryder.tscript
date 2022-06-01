@@ -192,7 +192,7 @@ datablock ShapeBaseImageData(RyderWeaponImage)
    stateTransitionOnTimeout[1]      = "Ready";
    stateTimeoutValue[1]             = 1.5;
    stateSequence[1]                 = "switch_in";
-   stateSoundAsset[1]                    = "FPSEquipment:RyderSwitchinSound";
+   stateSoundAsset[1]                    = "FPSEquipment:wpn_ryder_switchin";
 
    // Ready to fire, just waiting for the trigger
    stateName[2]                     = "Ready";
@@ -235,7 +235,7 @@ datablock ShapeBaseImageData(RyderWeaponImage)
    stateEmitter[4]                  = GunFireSmokeEmitter;
    stateEmitterTime[4]              = 0.025;
    stateEjectShell[4]               = true;
-   stateSoundAsset[4]                    = "FPSEquipment:RyderFireSound";
+   stateSoundAsset[4]                    = "FPSEquipment:wpn_ryder_fire";
 
    // Wait for the player to release the trigger
    stateName[5]                     = "WaitForRelease";
@@ -299,7 +299,7 @@ datablock ShapeBaseImageData(RyderWeaponImage)
    stateSequence[10]                 = "reload";
    stateShapeSequence[10]            = "Reload";
    stateScaleShapeSequence[10]       = true;
-   stateSoundAsset[10]                    = "FPSEquipment:RyderReloadSound";
+   stateSoundAsset[10]                    = "FPSEquipment:wpn_ryder_reload";
 
    // Start Sprinting
    stateName[11]                    = "SprintEnter";

@@ -30,7 +30,6 @@ function FPSEquipment::initServer(%this)
 
 function FPSEquipment::onCreateGameServer(%this)
 {
-   %this.registerDatablock("./datablocks/audioProfiles");
    %this.registerDatablock("./datablocks/health");
    %this.registerDatablock("./scripts/managedData/managedDecalData");   
    %this.registerDatablock("./datablocks/weapon");
