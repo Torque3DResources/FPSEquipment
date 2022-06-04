@@ -197,7 +197,7 @@ datablock ShapeBaseImageData(AITurretHeadImage)
    stateSequence[3]                 = "fire";
    stateSequenceRandomFlash[3]      = true;        // use muzzle flash sequence
    stateScript[3]                   = "onFire";
-   stateSoundAsset[3]                    = "FPSEquipment:TurretFireSound";
+   stateSoundAsset[3]                    = "FPSEquipment:wpn_turret_fire";
    stateEmitter[3]                  = GunFireSmokeEmitter;
    stateEmitterTime[3]              = 0.025;
    stateEjectShell[3]               = true;
@@ -361,11 +361,11 @@ datablock AITurretShapeData(DeployableTurret : AITurret)
    simpleServerCollision = false;
 
    // Dynamic properties defined by the scripts
-   PreviewImage = 'FPSEquipment:turret';
+   PreviewImage = 'FPSEquipment:turret_image';
    pickUpName = "a deployable turret";
    description = "Deployable Turret";
    image = DeployableTurretImage;
-   reticle = "FPSEquipment:blank";
+   reticle = 'blank';
    zoomReticle = 'blank';
 };
 
@@ -418,7 +418,7 @@ datablock ShapeBaseImageData(DeployableTurretImage)
    stateTransitionOnTimeout[1]      = "Ready";
    stateTimeoutValue[1]             = 0.66;
    stateSequence[1]                 = "switch_in";
-   stateSoundAsset[1]                    = "FPSEquipment:TurretSwitchinSound";
+   stateSoundAsset[1]                    = "FPSEquipment:wpn_turret_switchin";
 
    // Ready to fire, just waiting for the trigger
    stateName[2]                     = "Ready";

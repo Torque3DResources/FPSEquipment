@@ -26,11 +26,11 @@ function FPSEquipment::initServer(%this)
    %this.queueExec("./scripts/server/weapon");
    %this.queueExec("./scripts/server/health");
    %this.queueExec("./scripts/server/loadout");
+   %this.queueExec("./scripts/server/turret");
 }
 
 function FPSEquipment::onCreateGameServer(%this)
 {
-   %this.registerDatablock("./datablocks/audioProfiles");
    %this.registerDatablock("./datablocks/health");
    %this.registerDatablock("./scripts/managedData/managedDecalData");   
    %this.registerDatablock("./datablocks/weapon");
