@@ -269,11 +269,11 @@ datablock ItemData(Lurker)
    emap = true;
 
    // Dynamic properties defined by the scripts
-   PreviewImage = 'FPSEquipment:lurker';
+   PreviewImage = 'FPSEquipment:lurker_image';
    pickUpName = "Lurker rifle";
    description = "Lurker";
    image = LurkerWeaponImage;
-   reticle = "FPSEquipment:crossHair";
+   reticle = 'FPSEquipment:crossHair_image';
 };
 
 
@@ -551,11 +551,11 @@ datablock ItemData(LurkerGrenadeLauncher)
    emap = true;
 
    // Dynamic properties defined by the scripts
-   PreviewImage = 'FPSEquipment:lurker';
+   PreviewImage = 'FPSEquipment:lurker_image';
    pickUpName = "a Lurker grenade launcher";
    description = "Lurker Grenade Launcher";
    image = LurkerGrenadeLauncherImage;
-   reticle = "FPSEquipment:crossHair";
+   reticle = 'FPSEquipment:crossHair_image';
 };
 
 datablock ShapeBaseImageData(LurkerGrenadeLauncherImage)

@@ -51,7 +51,7 @@ datablock ProximityMineData( ProxMine )
    maxInventory = 20;
    image = ProxMineImage;
 
-   PreviewImage = 'FPSEquipment:mine';
+   PreviewImage = 'FPSEquipment:mine_image';
    reticle = 'blank';
    zoomReticle = 'blank';
 

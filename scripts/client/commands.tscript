@@ -166,12 +166,12 @@ function clientCmdRefreshWeaponHUD(%amount, %preview, %ret, %zoomRet, %amountInC
    if (%preview $= "" || detag(%preview) $= "blank")
    {
       WeaponHUD.setVisible(false);
-      WeaponHUD.setBitmap("");
+      PreviewImage.setBitmap("");
    }
    else
    {
       WeaponHUD.setVisible(true);
-      PreviewImage.setbitmap(detag(%preview) @"_image");
+      PreviewImage.setbitmap(detag(%preview));
    }
 
    if (%ret $= "" || detag(%ret) $= "blank")
@@ -182,7 +182,7 @@ function clientCmdRefreshWeaponHUD(%amount, %preview, %ret, %zoomRet, %amountInC
    else
    {
       Reticle.setVisible(true);
-      Reticle.setbitmap(detag(%ret) @"_image");
+      Reticle.setbitmap(detag(%ret));
    }
 
    if (isObject(ZoomReticle) || detag(%zoomRet) $= "blank")
@@ -195,7 +195,7 @@ function clientCmdRefreshWeaponHUD(%amount, %preview, %ret, %zoomRet, %amountInC
       else
       {
          ZoomReticle.setVisible(true);
-         ZoomReticle.setBitmap(detag(%zoomRet) @"_image");
+         ZoomReticle.setBitmap(detag(%zoomRet));
       }
    }
 }
