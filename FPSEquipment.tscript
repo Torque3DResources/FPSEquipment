@@ -14,6 +14,7 @@
 
 function FPSEquipment::onCreate( %this )
 {
+    exec("./scripts/shared/animationTools");
 }
 
 function FPSEquipment::onDestroy( %this )

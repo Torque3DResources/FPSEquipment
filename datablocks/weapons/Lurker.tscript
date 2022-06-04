@@ -285,7 +285,7 @@ datablock ShapeBaseImageData(LurkerWeaponImage)
    emap = true;
 
    imageAnimPrefix = "Rifle";
-   imageAnimPrefixFP = "Rifle";
+   imageAnimPrefixFP = "Lurker";
 
    // Specify mount point & offset for 3rd person, and eye offset
    // for first person rendering.
@@ -566,7 +566,7 @@ datablock ShapeBaseImageData(LurkerGrenadeLauncherImage)
    emap = true;
 
    imageAnimPrefix = "Rifle";
-   imageAnimPrefixFP = "Rifle";
+   imageAnimPrefixFP = "Lurker";
 
    // Specify mount point & offset for 3rd person, and eye offset
    // for first person rendering.

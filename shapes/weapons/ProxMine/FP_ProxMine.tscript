@@ -55,4 +55,14 @@ function FP_ProxMineDAE::onLoad(%this)
    %this.setSequenceCyclic("soldier_fire", "0");
    %this.addSequence("timeline", "soldier_fire_release", "500", "521", "1", "0");
    %this.setSequenceCyclic("soldier_fire_release", "0");
+   
+   %this.injectAnimation(FP_SoldierArmsDAE, "run", "ProxMine");
+   %this.injectAnimation(FP_SoldierArmsDAE, "run2sprint", "ProxMine");
+   %this.injectAnimation(FP_SoldierArmsDAE, "sprint", "ProxMine");
+   %this.injectAnimation(FP_SoldierArmsDAE, "sprint2run", "ProxMine");
+   %this.injectAnimation(FP_SoldierArmsDAE, "idle", "ProxMine");
+   %this.injectAnimation(FP_SoldierArmsDAE, "fire", "ProxMine");
+   %this.injectAnimation(FP_SoldierArmsDAE, "fire_release", "ProxMine");
+   %this.injectAnimation(FP_SoldierArmsDAE, "switch_out", "ProxMine");
+   %this.injectAnimation(FP_SoldierArmsDAE, "switch_in", "ProxMine");   
 }
