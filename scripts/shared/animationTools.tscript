@@ -1,4 +1,4 @@
-function TSShapeConstructor::injectAnimation(%this, %otherDae, %source, %imageAnimPrefix)
+function TSShapeConstructor::remapAnimation(%this, %otherDae, %source, %imageAnimPrefix)
 {
    %otherDae.addSequence(%this.baseShapeAsset SPC %source, %imageAnimPrefix @"_"@ %source);
 }
