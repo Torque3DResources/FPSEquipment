@@ -14,6 +14,7 @@
 
 function FPSEquipment::onCreate( %this )
 {
+    exec("./scripts/shared/animationTools");
 }
 
 function FPSEquipment::onDestroy( %this )
@@ -27,6 +28,7 @@ function FPSEquipment::initServer(%this)
    %this.queueExec("./scripts/server/health");
    %this.queueExec("./scripts/server/loadout");
    %this.queueExec("./scripts/server/turret");
+   %this.queueExec("./scripts/server/proximityMine");
 }
 
 function FPSEquipment::onCreateGameServer(%this)

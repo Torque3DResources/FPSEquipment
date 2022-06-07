@@ -53,4 +53,14 @@ function FP_LurkerDAE::onLoad(%this)
    %this.setSequenceCyclic("Run", "1");
    %this.setSequenceCyclic("sprint", "1");
    %this.setSequenceCyclic("idle", "1");
+      
+   %this.remapAnimation(FP_SoldierArmsDAE, "run", "Lurker");
+   %this.remapAnimation(FP_SoldierArmsDAE, "sprint", "Lurker");
+   %this.remapAnimation(FP_SoldierArmsDAE, "idle", "Lurker");
+   %this.remapAnimation(FP_SoldierArmsDAE, "idle_fidget1", "Lurker");
+   %this.remapAnimation(FP_SoldierArmsDAE, "fire", "Lurker");
+   %this.remapAnimation(FP_SoldierArmsDAE, "reload", "Lurker");
+   %this.remapAnimation(FP_SoldierArmsDAE, "fire_alt", "Lurker");
+   %this.remapAnimation(FP_SoldierArmsDAE, "switch_out", "Lurker");
+   %this.remapAnimation(FP_SoldierArmsDAE, "switch_in", "Lurker");  
 }

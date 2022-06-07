@@ -121,7 +121,7 @@ datablock ShapeBaseImageData(RyderWeaponImage)
    emap = true;
 
    imageAnimPrefix = "Pistol";
-   imageAnimPrefixFP = "Pistol";
+   imageAnimPrefixFP = "Ryder";
 
    // Specify mount point & offset for 3rd person, and eye offset
    // for first person rendering.

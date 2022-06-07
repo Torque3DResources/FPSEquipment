@@ -54,4 +54,11 @@ function FP_TurretDAE::onLoad(%this)
    %this.setSequenceCyclic("soldier_switch_out", "0");
    %this.addSequence("timeline", "soldier_switch_in", "10", "30", "1", "0");
    %this.setSequenceCyclic("soldier_switch_in", "0");
+   
+   %this.remapAnimation(FP_SoldierArmsDAE, "run", "Turret");
+   %this.remapAnimation(FP_SoldierArmsDAE, "sprint", "Turret");
+   %this.remapAnimation(FP_SoldierArmsDAE, "idle", "Turret");
+   %this.remapAnimation(FP_SoldierArmsDAE, "fire", "Turret");
+   %this.remapAnimation(FP_SoldierArmsDAE, "switch_out", "Turret");
+   %this.remapAnimation(FP_SoldierArmsDAE, "switch_in", "Turret");
 }

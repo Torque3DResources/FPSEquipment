@@ -52,4 +52,14 @@ function FP_RyderDAE::onLoad(%this)
    %this.setSequenceCyclic("soldier_switch_out", "0");
    %this.addSequence("timeline", "soldier_sprint", "300", "319", "1", "0");
    %this.addSequence("timeline", "idle", "80", "199", "1", "0");
+   
+   //inject additional animations into FP_SoldierArmsDAE;
+   %this.remapAnimation(FP_SoldierArmsDAE, "run", "Ryder");
+   %this.remapAnimation(FP_SoldierArmsDAE, "sprint", "Ryder");
+   %this.remapAnimation(FP_SoldierArmsDAE, "sprint", "Ryder");
+   %this.remapAnimation(FP_SoldierArmsDAE, "idle", "Ryder");
+   %this.remapAnimation(FP_SoldierArmsDAE, "fire", "Ryder");
+   %this.remapAnimation(FP_SoldierArmsDAE, "reload", "Ryder");
+   %this.remapAnimation(FP_SoldierArmsDAE, "switch_out", "Ryder");
+   %this.remapAnimation(FP_SoldierArmsDAE, "switch_in", "Ryder");
 }
