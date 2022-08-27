@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="debris_shape"
+    fileName="@assetFile=debris.dts"
+    constuctorFileName="@assetFile=debris.tscript"
+    materialSlot0="@asset=FPSEquipment:clip_mat"/>

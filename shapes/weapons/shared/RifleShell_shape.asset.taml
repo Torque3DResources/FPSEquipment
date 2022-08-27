@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="RifleShell_shape"
+    fileName="@assetFile=RifleShell.DAE"
+    constuctorFileName="@assetFile=RifleShell.tscript"
+    materialSlot0="@asset=FPSEquipment:RifleShell_mat"/>
