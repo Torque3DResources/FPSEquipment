@@ -1,0 +1,13 @@
+<MaterialAsset
+    AssetName="RifleShell_mat"
+    materialDefinitionName="RifleShell_mat">
+    <Material
+        Name="RifleShell_mat"
+        mapTo="RifleShell"
+        originalAssetName="RifleShell_mat">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:RifleShell_diff_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

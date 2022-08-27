@@ -1,0 +1,13 @@
+<MaterialAsset
+    AssetName="clip_mat"
+    materialDefinitionName="clip_mat"
+    imageMap0="@asset=FPSEquipment:shared_clip_image">
+    <Material
+        Name="clip_mat"
+        mapTo="clip">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:shared_clip_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>
