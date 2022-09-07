@@ -61,8 +61,8 @@ function turnOffZoom()
 
    // Rather than just disable the DOF effect, we want to set it to the level's
    // preset values.
-   //DepthOfFieldPostFX.disable();
-   ppOptionsUpdateDOFSettings();
+   DepthOfFieldPostFX.disable();
+   //OptionsUpdateDOFSettings();
 }
 
 function setZoomFOV(%val)
