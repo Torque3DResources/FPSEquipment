@@ -41,4 +41,7 @@ function Turret_HeadDAE::onLoad(%this)
    %this.setSequenceCyclic("fire", "0");
    %this.setSequenceCyclic("fire_alt", "0");
    %this.addNode("ejectPoint", "bn_head", "0 0 0 0 0 1 1.57", "0");
+   %this.setMeshSize("bn_head 2", "300");
+   %this.setMeshSize("bn_Muzzle 2", "300");
+   %this.setMeshSize("Turret_Lazer 2", "300");
 }
