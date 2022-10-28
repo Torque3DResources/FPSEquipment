@@ -6,7 +6,7 @@
 	CreateFunction="onCreate"
 	DestroyFunction="onDestroy"
 	Group="Game"
-    Dependencies="UI=1">
+    Dependencies="FPSPlayer=1">
 	<DeclaredAssets
         canSave="true"
         canSaveDynamicFields="true"
