@@ -19,6 +19,54 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
+$RemapName[$RemapCount] = "Inventory Slot 1";
+$RemapCmd[$RemapCount] = "useItemSlot1";
+$RemapActionMap[$RemapCount] = "moveMap";
+$RemapDevice[$RemapCount] = "keyboard";
+$RemapDescription[$RemapCount] = "Selects Inventory Slot 1";
+$RemapCount++;
+$RemapName[$RemapCount] = "Inventory Slot 2";
+$RemapCmd[$RemapCount] = "useItemSlot2";
+$RemapActionMap[$RemapCount] = "moveMap";
+$RemapDevice[$RemapCount] = "keyboard";
+$RemapDescription[$RemapCount] = "Selects Inventory Slot 2";
+$RemapCount++;
+$RemapName[$RemapCount] = "Inventory Slot 3";
+$RemapCmd[$RemapCount] = "useItemSlot3";
+$RemapActionMap[$RemapCount] = "moveMap";
+$RemapDevice[$RemapCount] = "keyboard";
+$RemapDescription[$RemapCount] = "Selects Inventory Slot 3";
+$RemapCount++;
+$RemapName[$RemapCount] = "Inventory Slot 4";
+$RemapCmd[$RemapCount] = "useItemSlot4";
+$RemapActionMap[$RemapCount] = "moveMap";
+$RemapDevice[$RemapCount] = "keyboard";
+$RemapDescription[$RemapCount] = "Selects Inventory Slot 4";
+$RemapCount++;
+$RemapName[$RemapCount] = "Inventory Slot 5";
+$RemapCmd[$RemapCount] = "useItemSlot5";
+$RemapActionMap[$RemapCount] = "moveMap";
+$RemapDevice[$RemapCount] = "keyboard";
+$RemapDescription[$RemapCount] = "Selects Inventory Slot 5";
+$RemapCount++;
+$RemapName[$RemapCount] = "Reload";
+$RemapCmd[$RemapCount] = "reloadWeapon";
+$RemapActionMap[$RemapCount] = "moveMap";
+$RemapDevice[$RemapCount] = "keyboard";
+$RemapDescription[$RemapCount] = "Reload";
+$RemapCount++;
+$RemapName[$RemapCount] = "Next Weapon";
+$RemapCmd[$RemapCount] = "nextWeapon";
+$RemapActionMap[$RemapCount] = "moveMap";
+$RemapDevice[$RemapCount] = "keyboard";
+$RemapDescription[$RemapCount] = "Next Weapon";
+$RemapCount++;
+$RemapName[$RemapCount] = "Previous Weapon";
+$RemapCmd[$RemapCount] = "prevWeapon";
+$RemapActionMap[$RemapCount] = "moveMap";
+$RemapDevice[$RemapCount] = "keyboard";
+$RemapDescription[$RemapCount] = "Previous Weapon";
+$RemapCount++;
 
 if ( !isObject( moveMap ) )
     new ActionMap(moveMap);
@@ -26,17 +74,47 @@ if ( !isObject( moveMap ) )
 //------------------------------------------------------------------------------
 // Item manipulation
 //------------------------------------------------------------------------------
-moveMap.bindCmd(keyboard, "1", "commandToServer('UseItemSlot',\"1\");", "");
-moveMap.bindCmd(keyboard, "2", "commandToServer('UseItemSlot',\"2\");", "");
-moveMap.bindCmd(keyboard, "3", "commandToServer('UseItemSlot',\"3\");", "");
-moveMap.bindCmd(keyboard, "4", "commandToServer('UseItemSlot',\"4\");", "");
-moveMap.bindCmd(keyboard, "5", "commandToServer('UseItemSlot',\"5\");", "");
+function useItemSlot1()
+{
+   commandToServer('UseItemSlot',"1");
+}
+
+function useItemSlot2()
+{
+   commandToServer('UseItemSlot',"2");
+}
+
+function useItemSlot3()
+{
+   commandToServer('UseItemSlot',"3");
+}
+
+function useItemSlot4()
+{
+   commandToServer('UseItemSlot',"4");
+}
+
+function useItemSlot5()
+{
+   commandToServer('UseItemSlot',"5");
+}
+
+moveMap.bind(keyboard, "1", "useItemSlot1");
+moveMap.bind(keyboard, "2", "useItemSlot2");
+moveMap.bind(keyboard, "3", "useItemSlot3");
+moveMap.bind(keyboard, "4", "useItemSlot4");
+moveMap.bind(keyboard, "5", "useItemSlot5");
 moveMap.bind(keyboard, q, nextWeapon);
 moveMap.bind(keyboard, "ctrl q", prevWeapon);
 moveMap.bind(mouse, "zaxis", mouseWheelWeaponCycle);
 
+function reloadWeapon()
+{
+   commandToServer('reloadWeapon');
+}
 
-moveMap.bindCmd(keyboard, "r", "commandToServer('reloadWeapon');", "");
+
+moveMap.bind(keyboard, "r", "reloadWeapon");
 moveMap.bind(keyboard, "alt w", throwWeapon);
 moveMap.bind(keyboard, "alt a", tossAmmo);
 
