@@ -10,8 +10,8 @@
         specularPower0="32">
         <Material.Stages>
             <Stages_beginarray
-                DiffuseMapAsset="FPSGameplay:healthkit_d_image"
-                NormalMapAsset="FPSGameplay:healthkit_n_image"/>
+                DiffuseMapAsset="FPSEquipment:healthkit_d_image"
+                NormalMapAsset="FPSEquipment:healthkit_n_image"/>
         </Material.Stages>
     </Material>
 </MaterialAsset>
