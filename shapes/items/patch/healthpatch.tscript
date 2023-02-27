@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(healthpatchdts)
 {
-   baseShapeAsset = "FPSGameplay:healthpatch";
+   baseShapeAsset = "FPSEquipment:healthpatch";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";
