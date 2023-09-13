@@ -216,6 +216,8 @@ function WeaponImage::onFire(%this, %obj, %slot)
 
          // Which we'll use to alter the projectile's initial vector with
          %muzzleVector = MatrixMulVector(%mat, %vec);
+         %muzzleVector = VectorScale(VectorNormalize(%muzzleVector), %this.projectileSpread *2);
+         %muzzleVector = VectorAdd(%muzzleVector, %vec);
       }
       else
       {
