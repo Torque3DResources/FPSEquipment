@@ -4,5 +4,12 @@
     originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/healthBB">
     <Material
         Name="healthBB"
-        mapTo="healthBB"/>
+        mapTo="healthBB"
+        translucent="true"
+        originalAssetName="healthBB">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:healthBB_image"/>
+        </Material.Stages>
+    </Material>
 </MaterialAsset>
