@@ -4,5 +4,13 @@
     originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/redLiquid">
     <Material
         Name="redLiquid"
-        mapTo="redLiquid"/>
+        mapTo="redLiquid"
+        originalAssetName="redLiquid">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:redLiquid_image"
+                Roughness="0"
+                Metalness="1"/>
+        </Material.Stages>
+    </Material>
 </MaterialAsset>

@@ -4,5 +4,15 @@
     originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/redGlass">
     <Material
         Name="redGlass"
-        mapTo="redGlass"/>
+        mapTo="redGlass"
+        translucent="true"
+        originalAssetName="redGlass">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:redGlass_image"
+                Roughness="0.412903"
+                Metalness="1"
+                doubleSided="true"/>
+        </Material.Stages>
+    </Material>
 </MaterialAsset>

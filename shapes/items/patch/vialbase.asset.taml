@@ -4,5 +4,13 @@
     originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/vialBase">
     <Material
         Name="vialbase"
-        mapTo="vialbase"/>
+        mapTo="vialbase"
+        originalAssetName="vialbase">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSEquipment:vialBase_image"
+                Roughness="0.451613"
+                Metalness="1"/>
+        </Material.Stages>
+    </Material>
 </MaterialAsset>
