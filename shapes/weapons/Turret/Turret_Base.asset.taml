@@ -8,6 +8,7 @@
         translucentBlendOp="None"
         castDynamicShadows="1"
         materialTag0="Weapon"
+        originalAssetName="Turret_Base"
         pixelSpecular0="1"
         specular0="0.9 0.9 0.9 1"
         specularMap0="data/FPSEquipment/art/shapes/weapons/Turret/Turret_S.dds"
@@ -15,7 +16,10 @@
         <Material.Stages>
             <Stages_beginarray
                 DiffuseMapAsset="FPSEquipment:Turret_D_image"
-                NormalMapAsset="FPSEquipment:Turret_N_image"/>
+                NormalMapAsset="FPSEquipment:Turret_N_image"
+                ORMConfigMapAsset="FPSEquipment:Turret_ORM_image"
+                GlowMapAsset="FPSEquipment:Turret_G_image"
+                GlowMul="10"/>
         </Material.Stages>
     </Material>
 </MaterialAsset>
