@@ -7,6 +7,7 @@
         mapTo="TP_Ryder_Base"
         translucentBlendOp="None"
         castDynamicShadows="1"
+        originalAssetName="TP_Ryder_Base"
         pixelSpecular0="1"
         specular0="1.0 1.0 1.0 1"
         specularMap0="./TP_Ryder_S.dds"
@@ -14,7 +15,8 @@
         <Material.Stages>
             <Stages_beginarray
                 DiffuseMapAsset="FPSEquipment:TP_Ryder_D_image"
-                NormalMapAsset="FPSEquipment:TP_Ryder_N_image"/>
+                NormalMapAsset="FPSEquipment:TP_Ryder_N_image"
+                ORMConfigMapAsset="FPSEquipment:FP_Ryder_ORM_image"/>
         </Material.Stages>
     </Material>
 </MaterialAsset>
