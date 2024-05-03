@@ -20,17 +20,6 @@
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
 
-//--------------------------------------------------------------------------
-// Sounds
-//--------------------------------------------------------------------------
-datablock SFXPlayList(LurkerFireSoundList)
-{
-   // Use a looped description so the list playback will loop.
-   description = AudioClose3D;
-
-   trackAsset[ 0 ] = "FPSEquipment:wpn_lurker_fire";
-};
-
 // ----------------------------------------------------------------------------
 // Particles
 // ----------------------------------------------------------------------------
@@ -410,7 +399,7 @@ datablock ShapeBaseImageData(LurkerWeaponImage)
    stateSequenceNeverTransition[5]  = true;
    stateSequenceRandomFlash[5]      = true;        // use muzzle flash sequence
    stateScript[5]                   = "onFire";
-   stateSound[5]                    = LurkerFireSoundList;
+   stateSoundAsset[5]               = "FPSEquipment:wpn_lurker_fire";
    stateEmitter[5]                  = GunFireSmokeEmitter;
    stateEmitterTime[5]              = 0.025;
 
