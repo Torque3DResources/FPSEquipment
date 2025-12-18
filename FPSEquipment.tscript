@@ -50,11 +50,7 @@ function FPSEquipment::onDestroyGameServer(%this)
 function FPSEquipment::initClient(%this)
 {
    //keybind scripts   
-   %this.queueExec("./scripts/client/defaultkeybinds");   
-   %prefPath = getPrefpath();
-   if(isScriptFile(%prefPath @ "/keybinds"))
-      exec(%prefPath @ "/keybinds");
-      
+   %this.queueExec("./scripts/client/defaultkeybinds");
    %this.queueExec("./scripts/client/commands");
 }
 
