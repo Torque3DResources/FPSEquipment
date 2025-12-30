@@ -331,7 +331,7 @@ function AITurretShapeData::onThrow(%this, %user, %amount)
       client = %user.client;
       isAiControlled = true;
    };
-   MissionGroup.add(%obj);
+   MissionCleanup.add(%obj);
    
    // Let the turret know that we're a firend
    %obj.addToIgnoreList(%user);
