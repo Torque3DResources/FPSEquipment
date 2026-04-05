@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="mine_armed"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=mine_armed.ogg"/>

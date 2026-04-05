@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="SCARFIRE"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=SCARFIRE.wav"/>

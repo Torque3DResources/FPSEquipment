@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="Weapon_switch"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=Weapon_switch.ogg"/>

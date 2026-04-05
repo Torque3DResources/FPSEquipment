@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="Weapon_pickup"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=Weapon_pickup.ogg"/>

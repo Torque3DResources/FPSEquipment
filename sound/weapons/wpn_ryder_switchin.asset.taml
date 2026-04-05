@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="wpn_ryder_switchin"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=wpn_ryder_switchin.wav"/>

@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="Ammo_pickup"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=Ammo_pickup.ogg"/>
