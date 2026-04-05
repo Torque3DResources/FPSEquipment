@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="mine_trigger"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=mine_trigger.ogg"/>

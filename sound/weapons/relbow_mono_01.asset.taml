@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="relbow_mono_01"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=relbow_mono_01.ogg"/>

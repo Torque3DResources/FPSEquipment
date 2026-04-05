@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="wpn_turret_deploy"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=wpn_turret_deploy.wav"/>

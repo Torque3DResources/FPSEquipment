@@ -1,3 +1,10 @@
 <SoundAsset
     AssetName="wpn_turret_scan"
-    soundFile="@assetFile=wpn_turret_scan.wav"/>
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
+    isLooping="true">
+    <SoundAsset.slots>
+        <slots_beginarray
+            SoundFile="@assetFile=@wpn_turret_scan.wav"/>
+    </SoundAsset.slots>
+</SoundAsset>

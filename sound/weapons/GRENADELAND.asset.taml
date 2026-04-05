@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="GRENADELAND"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=GRENADELAND.wav"/>

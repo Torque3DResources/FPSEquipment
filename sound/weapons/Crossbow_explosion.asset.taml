@@ -1,3 +1,5 @@
 <SoundAsset
     AssetName="Crossbow_explosion"
+    is3D="true"
+    sourceGroup="AudioChannelEffects"
     soundFile="@assetFile=Crossbow_explosion.ogg"/>
